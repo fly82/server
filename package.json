@@ -1,4 +1,5 @@
 {
+  
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "name": "localtunnel-server",
   "description": "expose localhost to the world",
@@ -28,7 +29,7 @@
   },
   "scripts": {
     "test": "mocha --check-leaks --require esm './**/*.test.js'",
-    "start": "./bin/server",
+    "start": "./bin/server --port 3000",
     "dev": "node-dev bin/server --port 3000"
   }
 }
